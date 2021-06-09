@@ -18,7 +18,7 @@ O algoritmo funciona da seguinte forma:
 Cada tabuleiro tem uma pontuação associada a soma de todos os blocos no tabuleiro, isso será usado para ter uma referência aproximada de bom desempenho.
 Durante o processo acima, a pontuação dos tabuleiro de mesmo movimento inicial tem suas pontuações somadas e a direção com a maior pontuação associada será que o algorítmo irá seguir e esse loop continua até a vitória ou derrota.
 
-#PROBLEMAS
+# PROBLEMAS
 
 Esse algorítmo quando com parâmetro que eu não lembro deu cerca de 42% de sucesso na obtenção do objetivo de 2048, o que não é de todo ruim, mas havia bastante espaço para melhora, principalmente por eu ter observado alguns problemas como: 
 
@@ -38,50 +38,14 @@ Inclusive depois disso foi possível alcançar o bloco de 4096, apesar de soment
 
 
 # ALGUNS DADOS:
+| OBJETIVO | 2048 | 2048 | 4096 |
+|:-:|:-:|:-:|:-:|
+| Profundidade inicial | 8 | 8 | 8 |
+| Passo da profundidade | 20 | 16 | 15 |
+| Cópias por tecla (N) | 15 | 15 | 15 |
+| Passo do N | 8 | 7 | 6 |
+| Media de Tempo (s) | 311.537 | 425.355 | 1.444.058 |
+| Taxa de vitória (%) | 69 | 80 | 22 |
 
-Para ficar mais claro o impacto de se mexer nas condições iniciais das 4 variáveis supracitadas fiz alguns teste:
-
-##TESTE 1
-OBJETIVO 2048
-O programa rodou 100 nessa configuração:
-
-PROFD_I = 8  
-PROFD_PASSO = 20
-
-N_I = 15  
-N_PASSO = 8
-
-Tempo médio = 311,537 s
-Taxa de sucesso = 69%
-
-
-##TESTE 2
-OBJETIVO 2048
-O programa rodou 100 nessa configuração:
-
-PROFD_I = 8  
-PROFD_PASSO = 16
-
-N_I = 15   
-N_PASSO = 7
-
-Tempo médio = 425,355 s
-Taxa de sucesso = 80%
-
-
-##TESTE 3
-OBJETIVO 4096
-O programa rodou 50 nessa configuração:
-
-PROFD_I = 8  # Quantidade inicial de movimentos simulados
-PROFD_PASSO = 15
-PROFD_MAX = 500
-
-N_I = 15   # Número inicial de tabuleiros simulados por tecla
-N_PASSO = 6
-N_MAX = 400
-
-Tempo médio = 1444,058 s
-Taxa de sucesso = 22%
 
 O código no geral não está perto de bem otimizado ou construido, mas cumpriu com os objetivos que eu buscava, talvez no futuro eu o melhore.
