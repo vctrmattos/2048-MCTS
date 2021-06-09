@@ -2,7 +2,7 @@
 Implementação de um algoritmo de Monte Carlo Tree Search (MCTS) para a resolução do jogo 2048.
 
 Nesse projeto, além do jogo tradicional, eu implementei uma automação do 2048, usando o algoritmo de Monte Carlo com algumas pequenas modificações.
-A ideia foi inspirada por um [vídeo](https://www.youtube.com/watch?v=BQ6a8Thjpsk) do canal Universo Programado .
+A ideia foi inspirada por um [vídeo](https://www.youtube.com/watch?v=BQ6a8Thjpsk) JVictorDias do canal Universo Programado .
 
 Esse algoritmo também pode ser usado no site do 2048 original através da biblioteca Selenium no modo AUTO - BROWSER.
 
