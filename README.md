@@ -6,9 +6,9 @@ A ideia foi inspirada por um vídeo do canal Universo Programado [a link](https:
 
 Esse algoritmo também pode ser usado no site do 2048 original através da biblioteca Selenium no modo AUTO - BROWSER.
 
-![image](https://user-images.githubusercontent.com/76168138/121276344-e52c2780-c8a4-11eb-9d8b-7fc03aa27049.png width="200")
+![image](https://user-images.githubusercontent.com/76168138/121276344-e52c2780-c8a4-11eb-9d8b-7fc03aa27049.png | width=100))
 
-![image](https://user-images.githubusercontent.com/76168138/121276402-faa15180-c8a4-11eb-9771-8ac7339f0e43.png)
+![image](https://user-images.githubusercontent.com/76168138/121276402-faa15180-c8a4-11eb-9771-8ac7339f0e43.png | width=100))
 
 # FUNCIONAMENTO
 
