@@ -1,0 +1,288 @@
+DIFICULDADE 2048:
+PROFD_I = 8  # Quantidade inicial de movimentos simulados
+PROFD_PASSO = 20
+PROFD_MAX = 500
+
+N_I = 15   # Número inicial de tabuleiros simulados por tecla
+N_PASSO = 8
+N_MAX = 400
+
+
+1 - ganhou: 257.685 s.
+2 - ganhou: 308.452 s.
+3 - ganhou: 292.409 s.
+4 - perdeu: 301.206 s.
+5 - ganhou: 319.323 s.
+6 - ganhou: 303.315 s.
+7 - ganhou: 317.312 s.
+8 - ganhou: 331.773 s.
+9 - ganhou: 288.02 s.
+10 - ganhou: 279.315 s.
+11 - perdeu: 283.199 s.
+12 - ganhou: 293.014 s.
+13 - ganhou: 291.249 s.
+14 - perdeu: 278.768 s.
+15 - perdeu: 293.87 s.
+16 - ganhou: 347.541 s.
+17 - perdeu: 366.526 s.
+18 - perdeu: 344.947 s.
+19 - ganhou: 331.666 s.
+20 - ganhou: 337.4 s.
+21 - ganhou: 317.513 s.
+22 - ganhou: 294.558 s.
+23 - ganhou: 297.741 s.
+24 - ganhou: 281.142 s.
+25 - ganhou: 284.449 s.
+26 - ganhou: 310.883 s.
+27 - ganhou: 292.029 s.
+28 - perdeu: 338.198 s.
+29 - ganhou: 378.438 s.
+30 - perdeu: 395.924 s.
+31 - perdeu: 443.827 s.
+32 - ganhou: 439.561 s.
+33 - perdeu: 377.436 s.
+34 - ganhou: 451.186 s.
+35 - ganhou: 422.996 s.
+36 - ganhou: 293.066 s.
+37 - ganhou: 296.082 s.
+38 - ganhou: 327.291 s.
+39 - ganhou: 402.092 s.
+40 - ganhou: 284.744 s.
+41 - ganhou: 334.826 s.
+42 - ganhou: 339.422 s.
+43 - ganhou: 352.019 s.
+44 - ganhou: 348.562 s.
+45 - ganhou: 356.627 s.
+46 - perdeu: 206.975 s.
+47 - perdeu: 323.027 s.
+48 - ganhou: 316.637 s.
+49 - ganhou: 297.98 s.
+50 - perdeu: 278.144 s.
+51 - ganhou: 275.53 s.
+52 - ganhou: 312.135 s.
+53 - perdeu: 307.694 s.
+54 - ganhou: 347.624 s.
+55 - ganhou: 313.48 s.
+56 - perdeu: 321.688 s.
+57 - perdeu: 372.329 s.
+58 - perdeu: 289.869 s.
+59 - ganhou: 307.465 s.
+60 - ganhou: 388.94 s.
+61 - ganhou: 325.899 s.
+62 - perdeu: 177.172 s.
+63 - ganhou: 289.566 s.
+64 - ganhou: 319.899 s.
+65 - perdeu: 309.939 s.
+66 - ganhou: 297.267 s.
+67 - perdeu: 286.401 s.
+68 - ganhou: 283.435 s.
+69 - ganhou: 294.091 s.
+70 - perdeu: 288.715 s.
+71 - perdeu: 274.762 s.
+72 - perdeu: 18.615 s.
+73 - ganhou: 290.267 s.
+74 - perdeu: 284.66 s.
+75 - ganhou: 283.111 s.
+76 - ganhou: 293.191 s.
+77 - ganhou: 294.912 s.
+78 - perdeu: 314.771 s.
+79 - perdeu: 309.147 s.
+80 - perdeu: 276.696 s.
+81 - ganhou: 279.089 s.
+82 - ganhou: 291.804 s.
+83 - ganhou: 302.028 s.
+84 - ganhou: 289.103 s.
+85 - ganhou: 286.09 s.
+86 - ganhou: 306.781 s.
+87 - perdeu: 287.863 s.
+88 - ganhou: 299.083 s.
+89 - perdeu: 291.069 s.
+90 - perdeu: 151.531 s.
+91 - ganhou: 280.299 s.
+92 - ganhou: 283.502 s.
+93 - ganhou: 296.82 s.
+94 - ganhou: 279.319 s.
+95 - ganhou: 294.453 s.
+96 - ganhou: 360.614 s.
+97 - ganhou: 398.647 s.
+98 - ganhou: 327.782 s.
+99 - perdeu: 383.452 s.
+100 - ganhou: 412.142 s.
+
+DIFICULDADE 2048:
+
+PROFD_I = 8  # Quantidade inicial de movimentos simulados
+PROFD_PASSO = 16
+PROFD_MAX = 500
+
+N_I = 15   # Número inicial de tabuleiros simulados por tecla
+N_PASSO = 7
+N_MAX = 400
+
+1 - ganhou: 432.73 s.
+2 - ganhou: 496.225 s.
+3 - ganhou: 559.28 s.
+4 - ganhou: 437.861 s.
+5 - ganhou: 412.409 s.
+6 - ganhou: 390.975 s.
+1 - ganhou: 359.697 s.
+2 - ganhou: 375.62 s.
+3 - ganhou: 388.558 s.
+4 - perdeu: 395.558 s.
+5 - ganhou: 357.76 s.
+6 - ganhou: 399.262 s.
+7 - ganhou: 395.644 s.
+8 - ganhou: 354.586 s.
+9 - ganhou: 413.143 s.
+10 - ganhou: 370.996 s.
+11 - ganhou: 329.88 s.
+12 - ganhou: 505.319 s.
+13 - ganhou: 538.251 s.
+14 - ganhou: 613.789 s.
+15 - ganhou: 524.761 s.
+17 - ganhou: 429.241 s.
+18 - perdeu: 451.691 s.
+19 - ganhou: 439.897 s.
+20 - ganhou: 422.945 s.
+21 - ganhou: 389.819 s.
+22 - ganhou: 406.051 s.
+23 - perdeu: 391.25 s.
+24 - ganhou: 460.368 s.
+25 - perdeu: 397.409 s.
+26 - ganhou: 395.844 s.
+27 - ganhou: 362.262 s.
+28 - ganhou: 417.066 s.
+29 - perdeu: 401.693 s.
+30 - ganhou: 437.678 s.
+31 - ganhou: 395.283 s.
+32 - ganhou: 422.156 s.
+33 - ganhou: 432.388 s.
+34 - ganhou: 412.785 s.
+35 - perdeu: 380.247 s.
+36 - ganhou: 392.717 s.
+37 - ganhou: 418.985 s.
+38 - ganhou: 405.959 s.
+39 - ganhou: 480.332 s.
+40 - ganhou: 407.306 s.
+41 - ganhou: 358.899 s.
+42 - ganhou: 510.615 s.
+43 - perdeu: 483.404 s.
+44 - ganhou: 485.112 s.
+45 - ganhou: 439.311 s.
+46 - ganhou: 507.762 s.
+47 - ganhou: 458.184 s.
+48 - ganhou: 415.165 s.
+49 - perdeu: 452.074 s.
+50 - perdeu: 406.709 s.
+51 - perdeu: 402.984 s.
+52 - ganhou: 434.832 s.
+53 - ganhou: 380.751 s.
+54 - ganhou: 418.757 s.
+55 - perdeu: 439.98 s.
+56 - ganhou: 453.212 s.
+57 - ganhou: 365.545 s.
+58 - ganhou: 338.473 s.
+59 - ganhou: 360.721 s.
+60 - ganhou: 357.839 s.
+61 - perdeu: 454.139 s.
+62 - ganhou: 431.983 s.
+63 - ganhou: 527.064 s.
+64 - ganhou: 421.335 s.
+65 - ganhou: 393.874 s.
+66 - ganhou: 432.1 s.
+67 - ganhou: 384.779 s.
+68 - ganhou: 535.774 s.
+69 - ganhou: 475.186 s.
+70 - ganhou: 423.788 s.
+71 - ganhou: 461.112 s.
+72 - ganhou: 418.224 s.
+73 - ganhou: 403.067 s.
+74 - ganhou: 426.385 s.
+75 - ganhou: 508.669 s.
+76 - ganhou: 475.404 s.
+77 - ganhou: 350.409 s.
+78 - ganhou: 352.846 s.
+79 - ganhou: 431.893 s.
+80 - perdeu: 372.414 s.
+81 - ganhou: 433.787 s.
+82 - perdeu: 365.769 s.
+83 - ganhou: 357.272 s.
+84 - perdeu: 411.299 s.
+85 - ganhou: 414.969 s.
+86 - ganhou: 413.081 s.
+87 - perdeu: 406.133 s.
+88 - perdeu: 365.616 s.
+89 - ganhou: 411.812 s.
+90 - ganhou: 431.567 s.
+91 - ganhou: 383.933 s.
+92 - ganhou: 399.943 s.
+93 - perdeu: 351.528 s.
+94 - ganhou: 377.007 s.
+95 - perdeu: 489.913 s.
+96 - ganhou: 374.908 s.
+97 - ganhou: 450.456 s.
+98 - ganhou: 544.642 s.
+99 - ganhou: 586.719 s.
+100 - ganhou: 489.298 s.
+
+DIFICULDADE 4096:
+
+PROFD_I = 8  # Quantidade inicial de movimentos simulados
+PROFD_PASSO = 15
+PROFD_MAX = 500
+
+N_I = 15   # Número inicial de tabuleiros simulados por tecla
+N_PASSO = 6
+N_MAX = 400
+
+1 - ganhou: 2037.229 s.
+2 - perdeu: 2024.446 s.
+3 - perdeu: 1747.493 s.
+3 - perdeu: 1932.278 s.
+4 - ganhou: 2004.239 s.
+5 - perdeu: 560.353 s.
+6 - perdeu: 545.58 s.
+7 - ganhou: 2195.039 s.
+8 - ganhou: 2099.336 s.
+9 - perdeu: 1243.488 s.
+10 - perdeu: 1866.257 s.
+11 - perdeu: 1770.931 s.
+12 - ganhou: 2188.947 s.
+13 - perdeu: 2202.216 s.
+14 - perdeu: 540.444 s.
+15 - perdeu: 150.006 s.
+16 - perdeu: 2177.905 s.
+17 - perdeu: 1634.394 s.
+18 - ganhou: 1889.481 s.
+19 - perdeu: 1730.891 s.
+20 - perdeu: 434.956 s.
+21 - perdeu: 1763.248 s.
+22 - perdeu: 973.084 s.
+23 - perdeu: 1709.579 s.
+24 - perdeu: 526.579 s.
+25 - perdeu: 344.766 s.
+26 - perdeu: 116.582 s.
+27 - perdeu: 1700.03 s.
+28 - perdeu: 1299.687 s.
+29 - perdeu: 1016.639 s.
+30 - perdeu: 383.695 s.
+31 - perdeu: 1564.004 s.
+32 - perdeu: 105.673 s.
+33 - perdeu: 1548.849 s.
+34 - perdeu: 480.67 s.
+35 - ganhou: 1785.531 s.
+36 - perdeu: 1346.888 s.
+37 - perdeu: 1553.957 s.
+38 - perdeu: 1695.482 s.
+39 - perdeu: 2225.709 s.
+40 - ganhou: 1565.013 s.
+41 - perdeu: 1792.823 s.
+42 - perdeu: 543.192 s.
+43 - perdeu: 1247.119 s.
+44 - perdeu: 1321.963 s.
+45 - ganhou: 1992.9 s.
+46 - perdeu: 1667.425 s.
+47 - ganhou: 1662.948 s.
+48 - ganhou: 1867.603 s.
+49 - perdeu: 1977.427 s.
+50 - perdeu: 1834.941 s.
