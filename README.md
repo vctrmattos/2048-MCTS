@@ -18,7 +18,7 @@ O algoritmo funciona da seguinte forma:
 Cada tabuleiro tem uma pontuação associada a soma de todos os blocos no tabuleiro, isso será usado para ter uma referência aproximada de bom desempenho.
 Durante o processo acima, a pontuação dos tabuleiro de mesmo movimento inicial tem suas pontuações somadas e a direção com a maior pontuação associada será que o algorítmo irá seguir e esse loop continua até a vitória ou derrota.
 
-# PROBLEMAS
+# Problemas
 
 Esse algorítmo quando com parâmetro que eu não lembro deu cerca de 42% de sucesso na obtenção do objetivo de 2048, o que não é de todo ruim, mas havia bastante espaço para melhora, principalmente por eu ter observado alguns problemas como: 
 
@@ -26,7 +26,7 @@ Esse algorítmo quando com parâmetro que eu não lembro deu cerca de 42% de suc
 
 2 - Em várias situações havia 2 blocos de 1024 que não se juntavam por serem sempre interposto por algum outro, de forma que o número de derrotas em parte considerável vinha dessa situação.
 
-# SOLUÇÕES
+# Soluções
 
 Já quanto ao 1 problema, adicionei quatro novas variáveis globais chamadas PRFND_I, PRFND_PASSO, N_I e N_PASSO que são, respectivamente, a profundidade inicial e o passo em que ela, a quantidade de cópias e o passo em que ela aumenta. Com isso a pronfundidade e número de cópias aumentam linearmente com o número de jogadas, além disso fiz com que esses acréscimos só começassem a ocorrer depois da jogada número 100.
 
@@ -37,7 +37,7 @@ Depois de pensar um pouco e perceber o problema 2, adaptei essa mesma ideia para
 Inclusive depois disso foi possível alcançar o bloco de 4096, apesar de somente em 22% dos teste realizados e demorar quase 25 minutos para isso.
 
 
-# ALGUNS DADOS:
+# Alguns dados:
 | OBJETIVO | 2048 | 2048 | 4096 |
 |:-:|:-:|:-:|:-:|
 | Profundidade inicial | 8 | 8 | 8 |
