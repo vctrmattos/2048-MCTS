@@ -11,7 +11,7 @@ Esse algoritmo também pode ser usado no site do 2048 original através da bibli
 
 
 
-# FUNCIONAMENTO
+# Funcionamento
 
 O algoritmo funciona da seguinte forma:
  O tabuleiro inicial com um arranjo de peças é copiada N vezes para cada movimento possível do tabuleiro naquele momento, digamos que N seja 1000 e que todos movimentos sejam possíveis, assim teriamos 1000 cópias atribuidas para cada movimento, e as cópias atribuidas ao movimento "cima", por exemplo, todas iniciariam com o esse movimento. Depois disso, cada tabuleiro segue se movimentando de maneira aleatória por um certo número de jogadas até ele não ter mais movimentos possíveis (perder),  vencer ou chegar ao limite que nesse programa é chamado de "profundidade". 
