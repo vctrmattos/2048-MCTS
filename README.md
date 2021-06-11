@@ -42,8 +42,8 @@ Inclusive depois disso foi possível alcançar o bloco de 4096, apesar de soment
 |:-:|:-:|:-:|:-:|
 | Profundidade inicial | 8 | 8 | 8 |
 | Passo da profundidade | 20 | 16 | 15 |
-| Cópias por tecla (N) | 15 | 15 | 15 |
-| Passo do N | 8 | 7 | 6 |
+| Cópias por tecla | 15 | 15 | 15 |
+| Passo das cópias | 8 | 7 | 6 |
 | Media de Tempo (s) | 311.537 | 425.355 | 1.444.058 |
 | Taxa de vitória (%) | 69 | 80 | 22 |
 
