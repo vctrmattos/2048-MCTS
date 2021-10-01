@@ -24,7 +24,7 @@ Esse algorítmo quando com parâmetro que eu não lembro deu cerca de 42% de suc
 
 1 - No inicio do 2048 praticamente qualquer movimento gera um avanço e uma derrota é bem improvável, no entanto o programa gastava a mesma quantidade de recursos no início e em um estado mais avançado do jogo.
 
-2 - Em várias situações havia 2 blocos de 1024 que não se juntavam por serem sempre interposto por algum outro, de forma que o número de derrotas em parte considerável vinha dessa situação.
+2 - Em várias situações 2 blocos de 1024 eram alcançados, mas não se juntavam por haver um outro continuamente bloco interpondo eles, de forma que o número de derrotas em parte considerável vinha dessa situação.
 
 # Soluções
 
@@ -32,9 +32,7 @@ Já quanto ao 1 problema, adicionei quatro novas variáveis globais chamadas PRF
 
 Na primeira tentativa para melhorar a porcentagem de sucesso, eu criei uma espécie de punição para o tabuleiro perdedores, de forma que a pontuação fosse subtraída ao invés de somada a tecla correspondente e dividi pelo número de jogadas feitas até a derrota elevado ao quadrado visando diminuir a punição na medida que a derrota ocorresse mais longe. Isso não levou a mudança positivas e tentei verificar se ao aumentar a punição multiplicando por -1000 a pontuação, iria acontecer algo e, de fato aconteceu, o resultado piorou muito, saindo dos 42% para por volta de 10%.
 
-Depois de pensar um pouco e perceber o problema 2, adaptei essa mesma ideia para dar um incentivo aos tabuleiros vencedores ao invés de subtrair o programa soma a pontuação com multicada por 1000. Apesar da ideia similar, os impactos foram bastante positivos aumentando a taxa de sucesso para 69% fazendo essas duas melhorias.
-
-Inclusive depois disso foi possível alcançar o bloco de 4096, apesar de somente em 22% dos teste realizados e demorar quase 25 minutos para isso.
+Depois de pensar um pouco e perceber o problema 2, adaptei essa mesma ideia para dar um incentivo aos tabuleiros vencedores ao invés de subtrair o programa soma a pontuação com multicada por 1000. Apesar da ideia similar, os impactos foram bastante positivos aumentando a taxa de sucesso para 69% fazendo essas duas melhorias. Inclusive, pela primeira vez, foi possível alcançar o bloco de 4096, apesar de somente em 22% dos teste realizados e demorar quase 25 minutos para isso.
 
 
 # Alguns dados:
