@@ -2,13 +2,24 @@
 Implementação de um algoritmo de Monte Carlo Tree Search (MCTS) para a resolução do jogo 2048.
 
 Nesse projeto, além do jogo tradicional, eu implementei uma automação do 2048, usando o algoritmo de Monte Carlo com algumas pequenas modificações.
-A ideia foi inspirada por um [vídeo](https://www.youtube.com/watch?v=BQ6a8Thjpsk) do canal Universo Programado e foi usado como projeto de conclusão do fantástico CS50x e da disciplina de Computação II.
+A ideia foi inspirada por um [vídeo](https://www.youtube.com/watch?v=BQ6a8Thjpsk) do canal Universo Programado e foi usado como projeto de conclusão do CS50x e da disciplina de Computação II.
 
 Esse algoritmo também pode ser usado no site do 2048 original através da biblioteca Selenium no modo AUTO - BROWSER.
 
-<img src="https://user-images.githubusercontent.com/76168138/121276344-e52c2780-c8a4-11eb-9d8b-7fc03aa27049.png" width="300" height="300"><img src=
-"https://user-images.githubusercontent.com/76168138/121277216-836cbd00-c8a6-11eb-9bcf-c6a5587e4582.png" width="300" height="300"><img src="https://user-images.githubusercontent.com/76168138/121276402-faa15180-c8a4-11eb-9771-8ac7339f0e43.png" width="300" height="300">
+<figure>
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/76168138/121276344-e52c2780-c8a4-11eb-9d8b-7fc03aa27049.png" width="300" height="300"/>
+ </figcaption> 
+ </br>Tela inicial</br></br>
+<img src="https://user-images.githubusercontent.com/76168138/121277216-836cbd00-c8a6-11eb-9bcf-c6a5587e4582.png" width="300" height="300", class="center"/>
+ <img src="https://user-images.githubusercontent.com/76168138/121276402-faa15180-c8a4-11eb-9771-8ac7339f0e43.png" width="300" height="300"/>
+</figure>
 
+# Instalação
+- Clone o repositório, 
+- Instale as bibliotecas necessárias digitando no terminal `pip install -r requirements.txt`
+- Instale o [geckodriver](https://github.com/mozilla/geckodriver/releases) (para o funcionamento da biblioteca Selenium)
+- Para iniciar o jogo rode o script interface.py
 
 
 # Funcionamento
