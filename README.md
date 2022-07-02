@@ -31,7 +31,7 @@ Durante o processo acima, a pontuação dos tabuleiro de mesmo movimento inicial
 
 # Problemas
 
-Esse algorítmo quando com parâmetro que eu não lembro deu cerca de 42% de sucesso na obtenção do objetivo de 2048, o que não é de todo ruim, mas havia bastante espaço para melhora, principalmente por eu ter observado alguns problemas como: 
+Esse algorítmo, quando com parâmetros que não me recordo, deu cerca de 42% de sucesso na obtenção do objetivo de 2048, o que não é de todo ruim, mas havia bastante espaço para melhora, principalmente por eu ter observado alguns problemas como: 
 
 1 - No inicio do 2048 praticamente qualquer movimento gera um avanço e uma derrota é bem improvável, no entanto o programa gastava a mesma quantidade de recursos no início e em um estado mais avançado do jogo.
 
@@ -39,7 +39,7 @@ Esse algorítmo quando com parâmetro que eu não lembro deu cerca de 42% de suc
 
 # Soluções
 
-Quanto ao 1 problema, adicionei quatro novas variáveis globais chamadas PRFND_I, PRFND_PASSO, N_I e N_PASSO que são, respectivamente, a profundidade inicial e o passo em que ela, a quantidade de cópias e o passo em que ela aumenta. Com isso a pronfundidade e número de cópias aumentam linearmente com o número de jogadas, além disso fiz com que esses acréscimos só começassem a ocorrer depois da jogada número 100.
+Quanto ao 1 problema, adicionei quatro novas variáveis globais chamadas PRFND_I, PRFND_PASSO, N_I e N_PASSO que são, respectivamente, a profundidade inicial e o passo em que ela aumenta, a quantidade de cópias e o passo em que ela aumenta. Com isso a pronfundidade e número de cópias aumentam linearmente com o número de jogadas, além disso fiz com que esses acréscimos só começassem a ocorrer depois da jogada número 100.
 
 Na primeira tentativa para melhorar a porcentagem de sucesso, eu criei uma espécie de punição para o tabuleiro perdedores, de forma que a pontuação fosse subtraída ao invés de somada a tecla correspondente e dividi pelo número de jogadas feitas até a derrota elevado ao quadrado visando diminuir a punição na medida que a derrota ocorresse mais longe. Isso não levou a mudança positivas e tentei verificar se ao aumentar a punição multiplicando por -1000 a pontuação iria acontecer algo e, de fato aconteceu, o resultado piorou muito, saindo dos 42% para por volta de 10%.
 
