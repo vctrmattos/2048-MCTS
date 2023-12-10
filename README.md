@@ -1,7 +1,8 @@
 # 2048-MCTS
-(EN) This project involves the implementation of a Monte Carlo Tree Search (MCTS) algorithm for solving the game 2048. In addition to the traditional game, I automated 2048 using the Monte Carlo algorithm with some modifications, inspired by a video from the Universo Programado channel. The algorithm is applicable to the original 2048 website using Selenium in AUTO - BROWSER mode. The algorithm copies the initial board arrangement multiple times for each possible move, simulating random movements until the board has no more possible moves, wins, or reaches a specified "depth" limit. The scoring is based on the sum of all blocks on the board, and the algorithm selects the direction with the highest score for each move. The project addressed issues like early-game resource allocation and challenges with merging blocks, resulting in a 80% success rate in achieving the 2048 goal.
+**(EN)** <br>
+This project involves the implementation of a Monte Carlo Tree Search (MCTS) algorithm for solving the game 2048. In addition to the traditional game, I automated 2048 using the Monte Carlo algorithm with some modifications, inspired by a video from the YouTube channel Universo Programado. The algorithm is applicable to the original 2048 website using Selenium in AUTO - BROWSER mode. The algorithm copies the initial board arrangement multiple times for each possible move, simulating random movements until the board has no more possible moves, wins, or reaches a specified "depth" limit. The scoring is based on the sum of all blocks on the board, and the algorithm selects the direction with the highest score for each move. The project addressed issues like early-game resource allocation and challenges with merging blocks, resulting in a 80% success rate in achieving the 2048 goal.
 
-(PT - BR)
+**(PT - BR)** <br>
 Implementação de um algoritmo de Monte Carlo Tree Search (MCTS) para a resolução do jogo 2048.
 
 Nesse projeto, além do jogo tradicional, eu implementei uma automação do 2048, usando o algoritmo de Monte Carlo com algumas pequenas modificações.
